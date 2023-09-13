@@ -1,0 +1,24 @@
+/* Reset and global styles */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: 'Phudu', cursive;
+  color: black;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+}
