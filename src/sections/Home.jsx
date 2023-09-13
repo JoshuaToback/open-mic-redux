@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../assets/App.css"
+
 import Navbar from "../Navbar";
 import Services from "./Services";
 import Clients from "./Clients";

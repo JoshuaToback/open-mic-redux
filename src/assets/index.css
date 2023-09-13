@@ -22,3 +22,18 @@ section {
   font-size: 32px;
   font-weight: bold;
 }
+
+/* Lists */
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+li {
+  cursor: pointer;
+  transition: color 0.3s, text-decoration 0.3s;
+}
