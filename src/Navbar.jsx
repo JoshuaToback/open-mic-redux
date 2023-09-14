@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import OMS from "./assets/images/oms_temp.png";
 
 export default function Navbar() {
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   function toggleMenu() {
@@ -45,10 +44,10 @@ export default function Navbar() {
         </ul>
       </nav>
       <nav id="hamburger-nav">
+        <Link activeClass="active" smooth spy to="home">
+          <img src={OMS} alt="OMS Logo" className="nav-logo" />
+        </Link>
         <div className="hamburger-items">
-          <Link activeClass="active" smooth spy to="home">
-            <img src={OMS} alt="OMS Logo" className="nav-logo" />
-          </Link>
           <div className="hamburger-menu">
             <div
               className={`hamburger-icon ${isMenuOpen ? "open" : ""}`}
