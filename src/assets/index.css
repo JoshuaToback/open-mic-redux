@@ -15,13 +15,21 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+p {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
 section {
   display: grid;
+  box-sizing: border-box;
   place-items: center;
   height: 100vh;
+  margin: 0 10rem;
   font-size: 32px;
   font-weight: bold;
-}
+  min-height: fit-content;
+  }
+  
 
 /* Lists */
 ul {

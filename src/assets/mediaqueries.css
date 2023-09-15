@@ -7,7 +7,7 @@
   #hamburger-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #fff; /* Background color for the mobile menu */
     padding: 10px 20px;
     position: fixed;
