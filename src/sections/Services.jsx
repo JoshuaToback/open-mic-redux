@@ -6,8 +6,7 @@ const Services = () => {
   return (
     <div className="services">
       <h1 className="title">Services</h1>
-      <div className="clients-details-container">
-        <div className="about-containers">
+      <div className="about-containers">
           <div className="details-container">
             <h3>What We Do</h3>
             <p>
@@ -15,18 +14,17 @@ const Services = () => {
               and removes any names from the file, but adds a number to it.
               Another casting director looks at the numbered audition files with
               the client and determines who’s the best fit. If the unnamed
-              audition’s number is selected, it will be matched to the person
-              who submitted!
+              audition’s number is selected, it will be matched to the person who
+              submitted!
             </p>
           </div>
           <div className="details-container">
             <h3>Who We Are</h3>
             <p>
               Open Mic Studios is an anonymous casting studio created with entry
-              level voice actors at the forefront of the next great games,
-              shorts, animations, and more!
+              level voice actors at the forefront of the next great games, shorts,
+              animations, and more!
             </p>
-
             <p>
               Founded by Joshua Toback, this studio was created by voice actors,
               for voice actors. Stage fright doesn’t exist with Open Mic, as
@@ -51,7 +49,8 @@ const Services = () => {
             </ol>
           </div>
         </div>
-        <h3>What We Offer</h3>
+      <div className="clients-details-container">
+        <h3>The Mic System</h3>
         <div className="about-containers">
           <div className="details-container">
             <h3>The Bronze Mic</h3>
@@ -61,10 +60,7 @@ const Services = () => {
               </span>
 
               <p>
-                The tier for voice actors starting out! If you are not sure
-                about your setup or you're curious about voice acting, this tier
-                offers workshops and coaching for everyone, with monthly
-                competitions that include mock auditions, demo producing, and
+                The starting tier that gets access to workshops, coaching and
                 more!
               </p>
             </p>
@@ -75,12 +71,8 @@ const Services = () => {
               <img src={mic} alt="silverIcon" />
             </span>
             <p>
-              For people with the basic setups and are ready for the next step.
-              These auditions are standard and have a low barrier of entry for
-              all who are interested! This is for unpaid or around industry
-              standard rates. The anonymous system is in effect to make sure the
-              client is satisfied and the best voice is put forward over
-              anything else.
+              The next level for people with verified setups! They get exclusive
+              access to casting calls from both us and our clients!
             </p>
           </div>
           <div className="details-container">
@@ -89,9 +81,8 @@ const Services = () => {
               <img src={mic} alt="goldMic" />
             </span>
             <p>
-              The apex of what we offer! Anonymous casting and a private casting
-              call for people on the mailing list! For Gold Casting Calls we
-              will provide feedback for every audition sent in.
+              For professional voice actors who are established and ready to
+              reach the stars! Gold Mics get feedback on every audition.
             </p>
           </div>
         </div>

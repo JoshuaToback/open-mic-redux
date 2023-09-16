@@ -28,6 +28,7 @@ section {
   font-size: 32px;
   font-weight: bold;
   min-height: fit-content;
+  max-height: fit-content;
   }
   
 

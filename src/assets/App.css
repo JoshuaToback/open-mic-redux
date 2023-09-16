@@ -324,6 +324,98 @@ article .icon {
   cursor: default;
 }
 
+.clients {
+  background: linear-gradient(180deg, var(--secondary), var(--teriary));
+  text-align: center;
+  padding: 40px 20px;
+  height: auto;
+  width: 90%;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 50px !important;
+  margin-bottom: 50px;
+}
+
+.clients-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.client {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--primary);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  width: fit-content;
+}
+
+.client h2 {
+  margin-bottom: 10px;
+}
+
+.client img {
+  width: 400px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.client-image-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.client-logo {
+  width: fit-content;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.client-image-container:hover .client-logo {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.client-logo:active {
+  transform: scale(1);
+}
+
+/* About */
+
+#about {
+  height: fit-content;
+}
+
+.team-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.team-containers h2 {
+  font-size: 2rem;
+}
+
+.team-containers h3 {
+  font-size: 1rem;
+}
+
+.team-containers p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.team-containers img {
+  width: auto;
+  height: 150px;
+  border-radius: 10%;
+}
+
 /* Contact */
 
 #contact {
