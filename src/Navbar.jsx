@@ -10,7 +10,8 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   }
 
-  const menuClass = isMenuOpen ? "menu-links.open" : "menu-links";
+  const menuClass = `menu-links ${isMenuOpen ? "open" : ""}`;
+
   return (
     <>
       <nav id="desktop-nav">
@@ -25,7 +26,6 @@ export default function Navbar() {
               CLIENTS
             </Link>
           </li>
-
           <li>
             <Link activeClass="active" smooth spy to="home">
               <img src={OMS} alt="OMS Logo" className="nav-logo" />
